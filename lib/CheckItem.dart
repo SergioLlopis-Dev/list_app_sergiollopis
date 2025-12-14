@@ -14,7 +14,7 @@ class CheckItem {
   }
 
   Map<String, dynamic> toJson() => {
-    "nombre": name,
+    "name": name,
     "checked": checked,
   };
 
